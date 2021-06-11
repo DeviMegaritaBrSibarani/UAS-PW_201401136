@@ -1,0 +1,52 @@
+body{
+    
+    background-image: url("hitem.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ form
+ { 
+     font-size: x-large;
+     font-family:sans-serif;
+     color: rgb(255, 255, 255);
+ }
+ 
+ input
+ {
+    width: 10%;
+    height: 35px;
+    border: 1px solid;
+    border-color:rgb(110, 110, 110);
+    box-sizing: border-box;
+    border: radius 0;;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+ }
+.container
+{
+  position:relative; 
+  top: 100px;
+  left: 650px;
+} 
+
+.container label
+{
+    text-align:center;
+}
+
+
+ @font-face 
+ {
+     font-family: huruf;
+     src: url(huruf.ttf);
+ }
+ .hurup
+ {
+     font-size: 50px;
+     font-family: huruf;
+     padding-bottom: 20px;
+     text-decoration: underline rgb(240, 176, 0);
+     cursor:grab;
+ }
