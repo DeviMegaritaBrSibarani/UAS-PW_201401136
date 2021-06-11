@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Tugas Ku </title>   
+    <link href="m.png" rel="shorcut icon">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<style>
+ form
+ { 
+     font-size: x-large;
+     font-family:sans-serif;
+     color: rgb(255, 255, 255);
+ }
+ 
+ input
+ {
+    width: 90%;
+    height: 35px;
+    border: 1px solid;
+    border-color:rgb(110, 110, 110);
+    box-sizing: border-box;
+    border: radius 0;;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+ }
+
+ #untuktable
+ {
+     margin-top: 100px;
+     margin-left:auto;
+     margin-right:auto;
+ }
+
+ @font-face 
+ {
+     font-family: huruf;
+     src: url(huruf.ttf);
+ }
+ .hurup
+ {
+     font-size: 50px;
+     font-family: huruf;
+     padding-bottom: 20px;
+     text-decoration: underline rgb(240, 176, 0);
+     cursor:grab;
+     
+
+</style>
+
+
+<body style="background-image:url(hitem.jpeg);">
+                
+                 
+             
+  <form>    
+     <table id="untuktable">
+        <tr>
+            <td class="hurup"> Login </td>
+        </tr>
+         <tr>
+             <td> Username<input
+             name="Username"
+             type="text"
+             placeholder="Username ... ">
+             </td>
+         </tr>
+         <tr>
+            <td> Pasword <br> <input
+             name="Pasword"
+             type="password"
+             placeholder="password ...">             
+             </td>    
+         <tr>
+             <td><a href="register.html"><input type="button"
+                    backgound-color:"red"   
+                   onclick ="alert('Selamat datang !!')"
+                   value="Login"> </a>
+             </td>
+         </tr>
+         
+
+         <tr>
+             <td>
+              <a href="register.html"
+              style="text-decoration: none;
+              color: rgb(240, 176, 0);
+              font-size: 15px;">
+              Belum mendaftar?</a> 
+             </td>
+         </tr>     
+     </table>
+  </form>
+ 
+</body>
+
+</html>
